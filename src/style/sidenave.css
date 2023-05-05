@@ -1,0 +1,86 @@
+.sidenav{
+    height: 100%;
+    top: 0;
+    position: sticky;
+    /* background-color: white; */
+}
+
+.sidenav_logo{
+    height:15%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.sidenav_logoimg{
+    width: 43%;
+    margin-top: 10px;
+    margin-left: 25px;
+    /* height: 50px; */
+}
+
+.sidenav_menu{
+    height: 70%;
+    /* border: 1px solid; */
+}
+
+.sidenav_option{
+    height: 11.5%;
+    /* background-color: aqua; */
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    margin-bottom: 5px;
+    /* justify-content: space-evenly; */
+}
+
+.navbar_moreoption{
+    height: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 28px;
+    align-items:flex-end;
+}
+
+.sidenav_moreoption{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.moreoption_box{
+    /* height: 200px; */
+    width: 220px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.moreoption_box>a{
+    color: black;
+    text-decoration: none;
+}
+
+.moreoption_item{
+    background-color: rgba(214, 214, 214, 0.815);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    height: 50px;
+    margin: 2px 0;
+}
+
+.sidenav_option>a{
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.sidenav_option>a>i{
+    margin-right: 20px;
+    font-size: 25px;
+    color: black;
+}
+
